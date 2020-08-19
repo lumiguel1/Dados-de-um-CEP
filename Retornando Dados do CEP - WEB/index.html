@@ -38,13 +38,19 @@
             <input type="text" class="form-control" id="cep" placeholder="Insira seu CEP:" size="70">
 
             <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="submit" name="" onclick="chamar()">Buscar</button>
+                <button class="btn btn-outline-secondary" type="submit" name="" onclick="validar()">Buscar</button>
             </div>
 
         </div>
     </div>
 
-    <h2 id="digito"></h2>
+    <!-- Dados do CEP -->
+    <form action="" id="dados">
+        Cidade<input type="text" id="cidade" disabled size="70" placeholder="Cidade:"><br>
+        Bairro<input type="text" id="bairro" disabled size="70" placeholder="Bairro:"><br>
+        Estado<input type="text" id="estado" disabled size="70" placeholder="Estado:"><br>
+        Logradouro<input type="text" id="logradouro" disabled size="70" placeholder="Logradouro:">
+    </form>
 
     <script src="funcoes.js"></script>
 
