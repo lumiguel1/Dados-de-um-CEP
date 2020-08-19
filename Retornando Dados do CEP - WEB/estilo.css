@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+/* Campo de Busca */
+#busca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+#busca button{
+    margin: 5%;
+    width: 45%;
+    left: 20%;
+}
+
+#busca h1{
+    font-family: 'Alata', sans-serif;
+    color: #106373;
+}
+
+h2{
+    margin: auto;
+    text-align: center;
+}
