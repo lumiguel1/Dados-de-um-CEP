@@ -1,4 +1,4 @@
-# PROJETO PYTHON: Dados de um CEP
+# PROJETO WEB: Dados de um CEP
 
 > Um programa que retorna valores de um CEP inserido pelo usuário.
 
